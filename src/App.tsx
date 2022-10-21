@@ -19,7 +19,7 @@ function App() {
   return (
     <div className="App">
       <Header nav="simple" />
-      {/* <MainPage /> */}
+      <MainPage />
       {/* <ExploreCollections /> */}
       {/* <CreateNewItem /> */}
       {/* <CreateNewCollection /> */}
@@ -30,7 +30,7 @@ function App() {
       {/* <BuyerPage /> */}
       {/* <SellerPage /> */}
       {/* <FixedPrice /> */}
-      <CreateNewCollectionV2 />
+      {/* <CreateNewCollectionV2 /> */}
       <Footer />
     </div>
   );
