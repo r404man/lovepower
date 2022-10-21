@@ -1,5 +1,4 @@
 import React from "react";
-import "./selling.scss";
 
 function Selling() {
   return (

@@ -1,5 +1,4 @@
 import React from "react";
-import "./createNewItem.scss";
 
 function CreateNewItem() {
   return (

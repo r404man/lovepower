@@ -14,24 +14,23 @@ import CollectionNfts from "./pages/CollectionNfts/CollectionNfts";
 import BuyerPage from "./pages/BuyerPage/BuyerPage";
 import SellerPage from "./pages/SellerPage/SellerPage";
 import CreateNewCollectionV2 from "./pages/CreateNewCollectionV2/CreateNewCollectionV2";
-import { Helmet, HelmetProvider } from "react-helmet-async";
 
 function App() {
   return (
     <div className="App">
       <Header nav="simple" />
-      <MainPage />
+      {/* <MainPage /> */}
       {/* <ExploreCollections /> */}
-      {/* <FixedPrice /> */}
       {/* <CreateNewItem /> */}
       {/* <CreateNewCollection /> */}
+      {/* <CollectionNfts /> */}
+      {/* <CollectionActivity /> */}
       {/* <PersonalCollections /> */}
       {/* <PersonalNfts /> */}
-      {/* <CollectionActivity /> */}
-      {/* <CollectionNfts /> */}
       {/* <BuyerPage /> */}
       {/* <SellerPage /> */}
-      {/* <CreateNewCollectionV2 /> */}
+      {/* <FixedPrice /> */}
+      <CreateNewCollectionV2 />
       <Footer />
     </div>
   );

@@ -2,7 +2,6 @@ import React from "react";
 import CardDrop from "../../components/CardDrop/CardDrop";
 import CollectionTabs from "../../components/CollectionTabs/CollectionTabs";
 import PersonalTop from "../../components/PersonalTop/PersonalTop";
-import "./personalNfts.scss";
 
 function PersonalNfts() {
   let tabs: string[] = ["Ownen", "Created"];

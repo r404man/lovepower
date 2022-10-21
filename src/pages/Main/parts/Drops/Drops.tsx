@@ -1,6 +1,5 @@
 import React from "react";
 import CardDrop from "../../../../components/CardDrop/CardDrop";
-import "./drops.scss";
 
 function Drops() {
   return (

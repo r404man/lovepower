@@ -1,7 +1,6 @@
 import React from "react";
 import CardTrading from "../../components/CardTrading/CardTrading";
 import CollectionTabs from "../../components/CollectionTabs/CollectionTabs";
-import "./ExploreCollections.scss";
 
 function ExploreCollections() {
   let tabs: string[] = ["All", "Authored", "Owned", "Sale"];
@@ -47,6 +46,10 @@ function ExploreCollections() {
               </div>
             </div>
             <div className="trending__list js_trending__list">
+              {" "}
+              <CardTrading />
+              <CardTrading />
+              <CardTrading />
               {/* @@loop('./parts/components/card_trading.html', [
                                 {
                                     "image": "assets/images/__content/card__drop/1.jpg",
@@ -134,6 +137,10 @@ function ExploreCollections() {
               </div>
             </div>
             <div className="trending__list js_trending__list">
+              {" "}
+              <CardTrading />
+              <CardTrading />
+              <CardTrading />
               {/* @@loop('./parts/components/card_trading.html', [
                                 {
                                     "image": "assets/images/__content/card__drop/2.jpg",

@@ -1,6 +1,5 @@
 import React from "react";
 import CardCollection from "../../../../components/CardCollection/CardCollection";
-import "./collection.scss";
 
 function Collection() {
   return (

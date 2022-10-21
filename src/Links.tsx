@@ -9,6 +9,10 @@ function Links() {
         type="text/javascript"
       />
       <script
+        src="assets/js/vendor/moment.min.js"
+        type="text/javascript"
+      />
+      <script
         src="assets/js/vendor/fancybox.umd.js"
         type="text/javascript"
       />
@@ -17,19 +21,15 @@ function Links() {
         type="text/javascript"
       />
       <script
-        src="assets/js/vendor/moment.min.js"
-        type="text/javascript"
-      />
-      <script
-        src="assets/js/vendor/jquery.daterangepicker.min.js"
-        type="text/javascript"
-      />
-      <script
         src="assets/js/vendor/ScrollTrigger.min.js"
         type="text/javascript"
       />
       <script
         src="assets/js/vendor/slick.min.js"
+        type="text/javascript"
+      />
+      <script
+        src="assets/js/vendor/jquery.daterangepicker.min.js"
         type="text/javascript"
       />
       <script

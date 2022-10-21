@@ -1,6 +1,5 @@
 import React from "react";
 import Slider from "../../components/SliderNft/Slider";
-import "./buyerPage.scss";
 
 function BuyerPage() {
   return (

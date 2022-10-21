@@ -1,6 +1,5 @@
 import React from "react";
 import CardNews from "../../../../components/CardNews/CardNews";
-import "./news.scss";
 
 function News() {
   return (

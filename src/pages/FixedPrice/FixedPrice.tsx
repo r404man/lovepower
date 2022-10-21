@@ -1,5 +1,4 @@
 import React from "react";
-import "./fixedprice.scss";
 
 function FixedPrice() {
   return (

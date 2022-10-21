@@ -2,7 +2,7 @@ import React from "react";
 import CardTrading from "../../components/CardTrading/CardTrading";
 import CollectionTabs from "../../components/CollectionTabs/CollectionTabs";
 import PersonalTop from "../../components/PersonalTop/PersonalTop";
-import "./personalCollections.scss";
+import UserTop from "../../components/UserTop/UserTop";
 
 function PersonalCollections() {
   let tabs: string[] = ["Ownen", "Created"];

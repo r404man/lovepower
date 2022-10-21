@@ -1,5 +1,5 @@
 import React from "react";
-import "./sellerPage.scss";
+import Slider from "../../components/SliderNft/Slider";
 
 function SellerPage() {
   return (
@@ -325,6 +325,7 @@ function SellerPage() {
         </div>
       </div>
 
+      <Slider />
       {/* @@include('./parts/components/slider_nft.html') */}
     </div>
   );

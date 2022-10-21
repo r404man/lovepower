@@ -1,5 +1,4 @@
 import React from "react";
-import "./createNewCollection.scss";
 
 function CreateNewCollection() {
   return (

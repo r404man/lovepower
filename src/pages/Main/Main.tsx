@@ -1,5 +1,4 @@
 import React from "react";
-import "./main.scss";
 
 import HideSeek from "./parts/HideSeek/HideSeek";
 import Drops from "./parts/Drops/Drops";

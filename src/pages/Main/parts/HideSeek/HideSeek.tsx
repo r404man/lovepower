@@ -1,5 +1,4 @@
 import React from "react";
-import "./hide_seek.scss";
 
 function HideSeek() {
   return (

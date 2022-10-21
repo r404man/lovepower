@@ -1,7 +1,6 @@
 import React from "react";
 import Logged from "./Logged/Logged";
 import Simple from "./Simple/Simple";
-import "./_header.scss";
 
 function Header(props: any) {
   let nav = <Simple />;

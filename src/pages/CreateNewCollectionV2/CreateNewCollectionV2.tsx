@@ -1,5 +1,4 @@
 import React from "react";
-import "./createNewCollectionV2.scss";
 
 function CreateNewCollectionV2() {
   return (
