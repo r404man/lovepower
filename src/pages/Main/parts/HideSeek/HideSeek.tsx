@@ -1,4 +1,5 @@
 import React from "react";
+import HideSeekCol from "./HideSeekCol/HideSeekCol";
 
 function HideSeek() {
   return (
@@ -19,51 +20,11 @@ function HideSeek() {
             </div>
             <div className="hide__seek__row">
               <div className="hide__seek__col hide__seek__col--created">
-                <div className="hide__seek__section">
-                  <div className="hide__seek__title__section">
-                    Created by
-                  </div>
-                  <a href="" className="hide__seek__unit">
-                    <div className="hide__seek__unit__image">
-                      <img src="./assets/images/pages/home/hide__seek/1.jpg" />
-                    </div>
-                    <div className="hide__seek__unit__title">
-                      @dielamaharanie
-                    </div>
-                  </a>
-                </div>
-                <div className="hide__seek__section">
-                  <div className="hide__seek__title__section">
-                    Current bid
-                  </div>
-                  <div className="hide__seek__count">
-                    0.75 LPM
-                  </div>
-                </div>
+                <HideSeekCol />
               </div>
 
               <div className="hide__seek__col hide__seek__col--colection">
-                <div className="hide__seek__section">
-                  <div className="hide__seek__title__section">
-                    Collection
-                  </div>
-                  <a href="" className="hide__seek__unit">
-                    <div className="hide__seek__unit__image">
-                      <img src="assets/images/pages/home/hide__seek/2.jpg" />
-                    </div>
-                    <div className="hide__seek__unit__title">
-                      drawn by diela
-                    </div>
-                  </a>
-                </div>
-                <div className="hide__seek__section">
-                  <div className="hide__seek__title__section">
-                    Auction ends in
-                  </div>
-                  <div className="hide__seek__count">
-                    10h 48m 30s
-                  </div>
-                </div>
+                <HideSeekCol />
               </div>
             </div>
             <div className="hide__seek__btn__wrap">

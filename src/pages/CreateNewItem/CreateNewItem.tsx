@@ -1,4 +1,5 @@
 import React from "react";
+import CustomSelect from "../../components/CustomSelect/CustomSelect";
 
 function CreateNewItem() {
   return (
@@ -106,7 +107,8 @@ function CreateNewItem() {
                   </div>
                 </span>
               </div>
-              <div className="custom__select js_custom__select">
+              <CustomSelect />
+              {/* <div className="custom__select js_custom__select">
                 <div className="custom__select__view">
                   Select category
                 </div>
@@ -120,7 +122,7 @@ function CreateNewItem() {
                     <li>option 5</li>
                   </ul>
                 </div>
-              </div>
+              </div> */}
             </div>
 
             <div className="field__item">

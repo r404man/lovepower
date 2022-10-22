@@ -16,35 +16,6 @@ function News() {
           <CardNews />
           <CardNews />
           <CardNews />
-          {/* <!-- post 1 -->
-                    @@include('./parts/components/card_news.html', {
-                        "image": "assets/images/__content/news/2.jpg",
-                        "title": "How to Find an NFT You Love",
-                    })
-
-                    @@include('./parts/components/card_news.html', {
-                        "image": "assets/images/__content/news/1.jpg",
-                        "title": "How to Fund MetaMask with ETH",
-                    })
-
-                    @@include('./parts/components/card_news.html', {
-                        "image": "assets/images/__content/news/3.jpg",
-                        "title": "How to Easily Setup a MetaMask Wallet",
-                    })
-                    @@include('./parts/components/card_news.html', {
-                        "image": "assets/images/__content/news/2.jpg",
-                        "title": "How to Find an NFT You Love",
-                    })
-
-                    @@include('./parts/components/card_news.html', {
-                        "image": "assets/images/__content/news/1.jpg",
-                        "title": "How to Fund MetaMask with ETH",
-                    })
-
-                    @@include('./parts/components/card_news.html', {
-                        "image": "assets/images/__content/news/3.jpg",
-                        "title": "How to Easily Setup a MetaMask Wallet",
-                    }) */}
         </div>
       </div>
     </section>

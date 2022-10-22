@@ -1,6 +1,6 @@
 import React from "react";
 import CardTrading from "../CardTrading/CardTrading";
-import "./slider.scss";
+import UserUnit from "../UserUnit/UserUnit";
 
 function Slider() {
   return (
@@ -26,14 +26,7 @@ function Slider() {
               <div className="trending__block__who__count">
                 121 NFTs
               </div>
-              <a href="" className="user__unit">
-                <div className="user__unit__image">
-                  <img src="assets/images/pages/home/hide__seek/1.jpg" />
-                </div>
-                <div className="user__unit__title">
-                  @dielamaharanie
-                </div>
-              </a>
+              <UserUnit />
             </div>
           </div>
           <div className="trending__list__slider__wrap">

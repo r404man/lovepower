@@ -1,5 +1,5 @@
 import React from "react";
-import "./personalTop.scss";
+import UserUnit from "../UserUnit/UserUnit";
 
 function PersonalTop() {
   return (
@@ -19,14 +19,7 @@ function PersonalTop() {
             <div className="user__top__name">
               DigiDaigaku Genesis
             </div>
-            <a href="" className="user__unit">
-              <div className="user__unit__image">
-                <img src="assets/images/pages/home/hide__seek/1.jpg" />
-              </div>
-              <div className="user__unit__title">
-                @dielamaharanie
-              </div>
-            </a>
+            <UserUnit />
           </div>
 
           <div className="user__top__info user__top__info--social">

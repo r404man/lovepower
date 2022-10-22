@@ -1,5 +1,4 @@
 import React from "react";
-import "./cardActivity.scss";
 
 function CardActivity(props: any) {
   return (

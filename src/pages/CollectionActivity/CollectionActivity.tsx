@@ -9,17 +9,8 @@ function CollectionActivity() {
   return (
     <div className="main__container main__container--user_top">
       <UserTop />
-
-      {/* <CollectionTabs /> */}
-
       <div className="collection__tabs tabs__block js_tabs__block">
         <CollectionTabs tabs={tabs} />
-        {/* <div className="container">
-          <div className="collection__tabs__inner">
-            <button className="active">NFTs</button>
-            <button>Activity</button>
-          </div>
-        </div> */}
       </div>
       <div className="activity__block">
         <div className="container">
@@ -54,76 +45,6 @@ function CollectionActivity() {
               <CardActivity />
               <CardActivity />
               <CardActivity />
-              {/* 
-                            @@loop('./parts/components/card_activity.html', [
-                                {
-                                    "image": "images/pages/home/collection/1.jpg",
-                                    "name": "Unwillingly on Course",
-                                    "type": "Auction",
-                                    "date": "3 months ago",
-                                },
-                                {
-                                    "image": "images/pages/home/collection/2.jpg",
-                                    "name": "UTOPIA Universe",
-                                    "type": "Auction",
-                                    "date": "23 days ago",
-                                },
-                                {
-                                    "image": "images/pages/home/collection/3.jpg",
-                                    "name": "Bustani Collective",
-                                    "type": "Auction",
-                                    "date": "2 hours ago",
-                                },
-                                {
-                                    "image": "images/pages/home/collection/1.jpg",
-                                    "name": "Unwillingly on Course",
-                                    "type": "Auction",
-                                    "date": "23 days ago",
-                                },
-                                {
-                                    "image": "images/pages/home/collection/2.jpg",
-                                    "name": "UTOPIA Universe",
-                                    "type": "Auction",
-                                    "date": "2 hours ago",
-                                },
-                                {
-                                    "image": "images/pages/home/collection/3.jpg",
-                                    "name": "Bustani Collective",
-                                    "type": "Auction",
-                                    "date": "3 months ago",
-                                },
-                                {
-                                    "image": "images/pages/home/collection/2.jpg",
-                                    "name": "UTOPIA Universe",
-                                    "type": "Auction",
-                                    "date": "23 days ago",
-                                },
-                                {
-                                    "image": "images/pages/home/collection/3.jpg",
-                                    "name": "Bustani Collective",
-                                    "type": "Auction",
-                                    "date": "2 hours ago",
-                                },
-                                {
-                                    "image": "images/pages/home/collection/1.jpg",
-                                    "name": "Unwillingly on Course",
-                                    "type": "Auction",
-                                    "date": "23 days ago",
-                                },
-                                {
-                                    "image": "images/pages/home/collection/2.jpg",
-                                    "name": "UTOPIA Universe",
-                                    "type": "Auction",
-                                    "date": "2 hours ago",
-                                },
-                                {
-                                    "image": "images/pages/home/collection/3.jpg",
-                                    "name": "Bustani Collective",
-                                    "type": "Auction",
-                                    "date": "3 months ago",
-                                },
-
-                            ]) */}
             </div>
           </div>
         </div>

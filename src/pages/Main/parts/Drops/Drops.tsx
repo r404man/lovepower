@@ -15,38 +15,6 @@ function Drops() {
           <CardDrop />
           <CardDrop />
           <CardDrop />
-          {/* <!--  выводим 6 записей -->
-                    <!-- 1 -->
-                    @@include('./parts/components/card_drop.html', {
-                        "image": "assets/images/__content/card__drop/1.jpg",
-                        "name": "@dielamaharanie",
-                        "price":"0.869 LPM"
-                    })
-                    @@include('./parts/components/card_drop.html', {
-                        "image": "assets/images/__content/card__drop/2.jpg",
-                        "name": "@dielamaharanie",
-                        "price":"0.869 LPM"
-                    })
-                    @@include('./parts/components/card_drop.html', {
-                        "image": "assets/images/__content/card__drop/3.jpg",
-                        "name": "@dielamaharanie",
-                        "price":"0.869 LPM"
-                    })
-                    @@include('./parts/components/card_drop.html', {
-                        "image": "assets/images/__content/card__drop/2.jpg",
-                        "name": "@dielamaharanie",
-                        "price":"0.869 LPM"
-                    })
-                    @@include('./parts/components/card_drop.html', {
-                        "image": "assets/images/__content/card__drop/1.jpg",
-                        "name": "@dielamaharanie",
-                        "price":"0.869 LPM"
-                    })
-                    @@include('./parts/components/card_drop.html', {
-                        "image": "assets/images/__content/card__drop/3.jpg",
-                        "name": "@dielamaharanie",
-                        "price":"0.869 LPM"
-                    }) */}
         </div>
       </div>
     </section>

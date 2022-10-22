@@ -1,5 +1,4 @@
 import React from "react";
-import "./CollectionTabs.scss";
 
 function CollectionTabs(props: any) {
   return (
